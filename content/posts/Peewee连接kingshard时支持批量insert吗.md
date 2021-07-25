@@ -162,7 +162,7 @@ schema_list :
 127.0.0.1 kingshard
 ```
 看到下面这张图，kingshard 就跑起来了，和它文档描述的一样，配置运行确实很简单:
-![kingshard 启动界面](https://tva1.sinaimg.cn/large/008eGmZEgy1goqud2ewdhj31h00f20wc.jpg)
+![kingshard 启动界面](https://hj24-blog.oss-cn-shanghai.aliyuncs.com/blog/008eGmZEgy1goqud2ewdhj31h00f20wc.jpg)
 
 ### peewee
 peewee 的配置就自己领会了，这里给出一部分配置:
@@ -273,7 +273,7 @@ def register_autocommit():
 ```
 
 重新连接 kingshard，可以看到 autocommit 已经设置成功:
-![](https://tva1.sinaimg.cn/large/008eGmZEgy1gorhshlmhtj31gw0g2ae1.jpg)
+![](https://hj24-blog.oss-cn-shanghai.aliyuncs.com/blog/008eGmZEgy1gorhshlmhtj31gw0g2ae1.jpg)
 
 ### 跨节点 insert
 来测试一下今天的主角:
